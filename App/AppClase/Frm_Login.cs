@@ -24,5 +24,22 @@ namespace AppClase
         {
             InitializeComponent();
         }
+
+        private void btn_ingresar_Click(object sender, EventArgs e)
+        {
+            if (this.txt_usuario.Text == "")
+            {
+                MessageBox.Show("No está cargado el usuario", "Importante", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txt_usuario.Focus();
+                return;
+            }
+            if (this.txt_password.Text == "")
+            {
+                MessageBox.Show("No está cargado el password", "Importante", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txt_password.Focus();
+                return;
+            }
+            this.Close();
+        }
     }
 }
