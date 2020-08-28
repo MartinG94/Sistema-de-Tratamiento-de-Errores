@@ -39,6 +39,7 @@ namespace AppClase
                 txt_password.Focus();
                 return;
             }
+            this.Usuario = txt_usuario.Text;
             this.Close();
         }
     }
