@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AppClase.Formularios
+namespace AppClase
 {
     public partial class Frm_Login : Form
     {
