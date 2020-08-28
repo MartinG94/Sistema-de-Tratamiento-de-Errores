@@ -68,6 +68,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Frm_Escritorio";
             this.Text = "Escritorio del Sistema de Tratamiento de Errores";
+            this.Load += new System.EventHandler(this.Frm_Escritorio_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

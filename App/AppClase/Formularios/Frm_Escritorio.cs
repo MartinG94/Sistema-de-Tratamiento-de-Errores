@@ -21,5 +21,15 @@ namespace AppClase
         {
             this.Close();
         }
+
+        private void Frm_Escritorio_Load(object sender, EventArgs e)
+        {
+            Frm_Login login = new Frm_Login();
+            login.ShowDialog();
+
+            MessageBox.Show("El usuario es: " + login.Usuario + "\n" + "El password es: " + login.Password);
+
+            login.Dispose();
+        }
     }
 }
