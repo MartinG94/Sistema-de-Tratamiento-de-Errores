@@ -12,6 +12,14 @@ namespace AppClase
 {
     public partial class Frm_Login : Form
     {
+
+        public string Usuario { get; set; }
+        public string Password
+        {
+            get { return txt_password.Text; }
+            set { txt_password.Text = value;  }
+        }
+
         public Frm_Login()
         {
             InitializeComponent();
