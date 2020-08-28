@@ -46,7 +46,7 @@
             // 
             // txt_password
             // 
-            this.txt_password.Location = new System.Drawing.Point(233, 88);
+            this.txt_password.Location = new System.Drawing.Point(233, 68);
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(154, 23);
             this.txt_password.TabIndex = 1;
@@ -63,7 +63,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(158, 91);
+            this.label2.Location = new System.Drawing.Point(158, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 3;
@@ -71,7 +71,7 @@
             // 
             // btn_ingresar
             // 
-            this.btn_ingresar.Location = new System.Drawing.Point(272, 117);
+            this.btn_ingresar.Location = new System.Drawing.Point(273, 97);
             this.btn_ingresar.Name = "btn_ingresar";
             this.btn_ingresar.Size = new System.Drawing.Size(75, 25);
             this.btn_ingresar.TabIndex = 4;
@@ -82,7 +82,7 @@
             // 
             this.pictureBox1.BackgroundImage = global::AppClase.Properties.Resources.candado;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(13, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(139, 129);
             this.pictureBox1.TabIndex = 5;
@@ -92,7 +92,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 154);
+            this.ClientSize = new System.Drawing.Size(405, 151);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_ingresar);
             this.Controls.Add(this.label2);
@@ -104,7 +104,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Frm_Login";
-            this.Text = "Frm_Login";
+            this.Text = "Validar Usuario";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
