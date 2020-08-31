@@ -92,5 +92,9 @@
   <ItemGroup>
     <None Include="Resources\candado.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clases\" />
+    <Folder Include="Negocios\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
