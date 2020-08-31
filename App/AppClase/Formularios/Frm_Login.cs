@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AppClase.Negocios;
 
 namespace AppClase
 {
@@ -39,8 +40,17 @@ namespace AppClase
                 txt_password.Focus();
                 return;
             }
-            this.Usuario = txt_usuario.Text;
-            this.Close();
+            Ng_Users usuarios = new Ng_Users();
+            if (usuarios.validar_usuario(txt_usuario.Text, txt_password.Text) == Ng_Users.Respuesta.validacion_correcta)
+            {
+                this.Usuario = txt_usuario.Text;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Usuario incorrecto", "Importante", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            }
+            
         }
     }
 }
